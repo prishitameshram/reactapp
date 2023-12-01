@@ -113,5 +113,9 @@
   ],
   "exclude": [
     "node_modules"
+    ".next", // Exclude the Next.js build output directory
+    "out",   // If you have another build output directory, exclude it as well
+    "build", // Exclude any other common build directories
+    // Add any other directories or files that should be excluded during compilation
   ]
 }
